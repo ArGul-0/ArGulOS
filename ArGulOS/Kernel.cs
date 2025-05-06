@@ -14,7 +14,6 @@ namespace ArGulOS
         protected override void BeforeRun()
         {
             //Перед запуском
-            Console.Clear();
             Console.WriteLine($"Welcome to {OSName}. Version: {OSVersion}\nEnter the \"help\" command to see the list of commands.\n");
         }
 

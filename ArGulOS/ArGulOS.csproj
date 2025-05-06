@@ -18,8 +18,12 @@
         <Description>Use VMware Player or Workstation to deploy and debug.</Description>
         <PxeInterface>192.168.0.8</PxeInterface>
         <StackCorruptionDetectionEnabled>False</StackCorruptionDetectionEnabled>
-        <DebugEnabled>True</DebugEnabled>
-        <RemoveBootDebugOutput>False</RemoveBootDebugOutput>
+        <DebugEnabled>False</DebugEnabled>
+        <RemoveBootDebugOutput>True</RemoveBootDebugOutput>
+        <BinFormat>Elf</BinFormat>
+        <ExtractMapFile>True</ExtractMapFile>
+        <CompileVBEMultiboot>False</CompileVBEMultiboot>
+        <VBEResolution>800x600x32</VBEResolution>
     </PropertyGroup>
 
     <ItemGroup>
