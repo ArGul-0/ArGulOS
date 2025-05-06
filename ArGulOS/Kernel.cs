@@ -6,7 +6,7 @@ using Sys = Cosmos.System;
 namespace ArGulOS
 {
     public class Kernel : Sys.Kernel
-    {
+    { 
         private static string OSName = "ArGulOS";
         private static string OSVersion = "Alpha 0.1";
         private static string Separator25 = "=========================";
