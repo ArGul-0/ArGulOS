@@ -19,11 +19,11 @@
         <PxeInterface>192.168.0.8</PxeInterface>
         <StackCorruptionDetectionEnabled>False</StackCorruptionDetectionEnabled>
         <DebugEnabled>False</DebugEnabled>
-        <RemoveBootDebugOutput>True</RemoveBootDebugOutput>
-        <BinFormat>Elf</BinFormat>
-        <ExtractMapFile>True</ExtractMapFile>
+        <RemoveBootDebugOutput>False</RemoveBootDebugOutput>
+        <ExtractMapFile>False</ExtractMapFile>
         <CompileVBEMultiboot>False</CompileVBEMultiboot>
         <VBEResolution>800x600x32</VBEResolution>
+        <OptimizationLevel>0</OptimizationLevel>
     </PropertyGroup>
 
     <ItemGroup>
