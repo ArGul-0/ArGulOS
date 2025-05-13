@@ -221,6 +221,8 @@ namespace ArGulOS
         }
         private void PrintAllCommands()
         {
+            Console.WriteLine();
+
             Console.WriteLine("Root folder: 0:\\\n");
             Console.WriteLine("This all commands:\n");
             Console.WriteLine("clear: clear all terminal");
