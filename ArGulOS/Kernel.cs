@@ -101,7 +101,7 @@ namespace ArGulOS
                     Console.ForegroundColor = ConsoleColor.White;
                     break;
                 case "cd":
-                    Console.WriteLine("Enter directory name: ");
+                    Console.Write("Enter directory name: ");
                     CdDirectory = Console.ReadLine();
                     hasAnyChar = !string.IsNullOrEmpty(CdDirectory) && CdDirectory.Trim().Length > 0;
                     if (hasAnyChar == false)
