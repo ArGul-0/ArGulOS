@@ -24,6 +24,8 @@ namespace ArGulOS
         private bool hasAnyChar = false;
         protected override void BeforeRun()
         {
+            Console.WriteLine("Start system...");
+            Console.WriteLine("Start file system...");
             fs = new Sys.FileSystem.CosmosVFS();
             VFSManager.RegisterVFS(fs);
 
@@ -47,6 +49,7 @@ namespace ArGulOS
                 // 6) «Примонтируем» раздел, чтобы он появился как корневая «0:\»
                 disk.MountPartition(0);
             }
+            Console.WriteLine("File system started!");
             Console.Clear();
 
             Console.WriteLine($"Welcome to {OSName}. Version: {OSVersion}\nEnter the \"help\" command to see the list of commands.\n");
