@@ -103,6 +103,9 @@ namespace ArGulOS
                     Console.WriteLine(Separator50);
                     Console.ForegroundColor = ConsoleColor.White;
                     break;
+                case "datetime":
+                    Console.WriteLine(DateTime.Now);
+                    break;
                 case "cd":
                     Console.Write("Enter directory name: ");
                     CdDirectory = Console.ReadLine();
@@ -232,6 +235,7 @@ namespace ArGulOS
             Console.WriteLine("shutdown: turning off the PC");
             Console.WriteLine("reboot: rebooting the PC");
             Console.WriteLine("sysinfo: information about the system");
+            Console.WriteLine("datetime: current date and current time");
             Console.WriteLine("ls: show all file and directorty in current directory");
             Console.WriteLine("cd: move to directory");
             Console.WriteLine("cd .: move to start directory");
